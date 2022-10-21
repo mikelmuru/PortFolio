@@ -14,25 +14,22 @@
 <body>
     <form id="form1" runat="server">
         <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 col-md-4 offset-md-5">
-                    <div class="card  mb-3" style="max-width: 18rem;">
+            <div class="d-flex vh-100 justify-content-center align-items-center">
+                    <div class="card  mb-3">
                         <div class="card-header text-bg-dark bg-opacity-75">
                             <span class="h5 me-auto">Conversor Temperaturas</span>
-                           
                         </div>
                         <div class="card-body text-secondary">
-                            <asp:Label ID="LblCentigrados" for="TxtCentigrados" runat="server" Text="Grados Centígrados" CssClass="form-label mb-1"></asp:Label>
-                            <asp:TextBox ID="TxtCentigrados" runat="server" CssClass="form-control mb-3"></asp:TextBox>
-                         <asp:Label ID="LblFarenheit" for="TxtFarenheit" runat="server" Text="Grados Farenheit" CssClass="form-label mb-1"></asp:Label>
-                            <asp:TextBox ID="TxtFarenheit" runat="server" CssClass="form-control mb-4" ></asp:TextBox>
+                           
+                            <asp:TextBox ID="TxtCentigrados" runat="server" CssClass="form-control mb-3" placeholder="Grados Centígrados"></asp:TextBox>
+                    
+                            <asp:TextBox ID="TxtFarenheit" runat="server" CssClass="form-control mb-4" placeholder="Grados Farenheit" ></asp:TextBox>
                             <asp:Button ID="BtnCalcular" runat="server" Text="Calcular" CssClass="btn btn-outline-primary"  OnClick="BtnCalcular_Click" />
                             <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-outline-secondary"  OnClick="BtnLimpiar_Click" />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
     </form>
     <!-- JavaScript Bundle with Popper -->
