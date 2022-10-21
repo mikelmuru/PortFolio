@@ -11,8 +11,6 @@ namespace EjercicioTemperaturas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            LblCentigrados.Attributes.Add("onmouseover", "posicionate('TxtCentigrados')");
-            LblFarenheit.Attributes.Add("onmouseover", "posicionate('TxtFarenheit')");
         }
 
         protected void BtnCalcular_Click(object sender, EventArgs e)
