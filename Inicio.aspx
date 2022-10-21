@@ -24,8 +24,8 @@
                             <asp:TextBox ID="TxtCentigrados" runat="server" CssClass="form-control mb-3" placeholder="Grados Centígrados"></asp:TextBox>
                     
                             <asp:TextBox ID="TxtFarenheit" runat="server" CssClass="form-control mb-4" placeholder="Grados Farenheit" ></asp:TextBox>
-                            <asp:Button ID="BtnCalcular" runat="server" Text="Calcular" CssClass="btn btn-outline-primary"  OnClick="BtnCalcular_Click" />
-                            <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-outline-secondary"  OnClick="BtnLimpiar_Click" />
+                            <asp:Button ID="BtnCalcular" runat="server" Text="Calcular" CssClass="btn btn-primary"  OnClick="BtnCalcular_Click" />
+                            <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" CssClass="btn btn-secondary"  OnClick="BtnLimpiar_Click" />
                         </div>
                     </div>
                 </div>
